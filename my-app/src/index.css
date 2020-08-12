@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+  
+}
+
+
+.person-list{
+    display: flex;
+  }
+
+@media only screen and (max-width: 760px) {
+  .person-list{
+    display: inline;
+  }
+}
+
+
+
+.person{
+  background: powderblue;
+  color: coral;
+  width: 17rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+  text-align: center;
+  transition: all 0.3s linear;
+  
+}
+
+.person:hover{
+  box-shadow: 2px 5px 10px rgba(2, 200, 70, 0.6);
+}
+
+.person img{
+  border-radius: 50%;
+  border-radius: 0.1rem solid ;
+  cursor: pointer;
+  width: 70px;
+  height: 90px;
+ 
+}
+
+.person h4{
+  text-transform: uppercase;
+  margin: 0.rem 0;
+  letter-spacing: 0.15rem;
+  color: blue;
+}
+
+@media screen and (max-width: 480px){
+  img{
+    display: inline;
+  }
+}
